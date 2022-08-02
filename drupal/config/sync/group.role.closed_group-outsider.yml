@@ -1,0 +1,22 @@
+uuid: 8fcbc9a8-dac6-4cb6-9b6b-db921f75e912
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.closed_group
+_core:
+  default_config_hash: Ct5fMFE18UrtF_i705sC3QIN0smpgkPdmjfEAT9-2vI
+id: closed_group-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: closed_group
+permissions_ui: true
+permissions:
+  - 'access comments'
+  - 'request group membership'
+  - 'update own group_node:event entity'
+  - 'update own group_node:topic entity'
+  - 'view group'
+  - 'view group_membership content'

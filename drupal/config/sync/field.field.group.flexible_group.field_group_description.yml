@@ -1,0 +1,23 @@
+uuid: aaef0271-0d87-4376-b53b-db1e2a3dd81a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.group.field_group_description
+    - group.type.flexible_group
+  module:
+    - text
+_core:
+  default_config_hash: xYajg2KwDbvts2r7ExmC2kCIltULmCVA4UJa2he9b40
+id: group.flexible_group.field_group_description
+field_name: field_group_description
+entity_type: group
+bundle: flexible_group
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

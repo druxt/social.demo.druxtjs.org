@@ -1,0 +1,81 @@
+{
+    "uuid": [
+        {
+            "value": "22ad271c-0292-4568-a9c1-fd5d2cb5d7ff"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "topic_types",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "c0f6ae3c-26d9-400e-955f-fcf01ff70bee"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2022-08-02T01:12:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Blog"
+        }
+    ],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [
+        {
+            "target_id": null
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-08-02T01:12:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "field_topic_type_icon": [
+        {
+            "value": "icon-blog"
+        }
+    ]
+}

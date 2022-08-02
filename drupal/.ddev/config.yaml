@@ -1,6 +1,6 @@
-name: drupal
+name: social
 type: drupal9
-docroot: web
+docroot: html
 php_version: "7.4"
 webserver_type: nginx-fpm
 router_http_port: "80"
@@ -82,7 +82,7 @@ web_environment: []
 # Please take care with this because it can cause great confusion.
 
 # upload_dir: custom/upload/dir
-# would set the destination path for ddev import-files to <docroot>/custom/upload/dir 
+# would set the destination path for ddev import-files to <docroot>/custom/upload/dir
 
 # working_dir:
 #   web: /var/www/html

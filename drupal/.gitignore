@@ -3,21 +3,21 @@ bin/
 drush/contrib/
 keys/*.key
 vendor/
-web/core/
-web/modules/contrib/
-web/themes/contrib/
-web/profiles/contrib/
-web/libraries/
+html/core/
+html/modules/contrib/
+html/themes/contrib/
+html/profiles/contrib/
+html/libraries/
 
 # Ignore sensitive information
-web/sites/*/settings.local.php
+html/sites/*/settings.local.php
 
 # Ignore Drupal's file directory
-web/sites/*/files/
-!web/sites/default/files/.gitkeep
+html/sites/*/files/
+!html/sites/default/files/.gitkeep
 
 # Ignore SimpleTest multi-site environment.
-web/sites/simpletest
+html/sites/simpletest
 
 # Ignore environment specific files.
 .env
