@@ -1,22 +1,21 @@
-# DruxtSite quickstart - Drupal with Tome sync
+# DruxtSocial prototype
 
-> One click, Fully Decoupled Drupal Site starter-kit with Druxt.
+> Open Social + DruxtSite
 
-DruxtSite connects Drupal to Nuxt via JSON:API to provide a framework for building a Fully Decoupled site.
+Create digital spaces that empower your members to share with Open Social's out-of-the-box solution for your online community.
 
 This repostory provides a quickstart installation of:
-- Drupal 9 with Tome sync
-- Nuxt 2
-- DruxtSite
+- Drupal 9 with Open Social
+- Nuxt 2 with DruxtSite
 
 
 ## Quickstart
 
 Try it before you fork it:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/druxt/quickstart-druxt-site-tome)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Decipher/druxt-social)
 
-
+<!--
 ## Getting started
 
 1. Click the **Use this template** button in GitHub and follow the on-screen instructions to **Create a new repository**.
@@ -30,6 +29,7 @@ Try it before you fork it:
 3. Wait for your codebase to build.
 
    _Note:_ To speed up this step, enable Prebuilds by follow the instructions @ https://www.gitpod.io/docs/prebuilds#enable-prebuilt-workspaces
+-->
 
 
 ## How to use it
