@@ -12,7 +12,8 @@
         "drush/drush": "*",
         "drupal/tome": "^1.7",
         "drupal-tome/tome_drush": "dev-master",
-        "drupal/druxt": "^1.1"
+        "drupal/druxt": "^1.1",
+        "drupal/simple_oauth": "^5.2"
     },
     "repositories": [
         {
