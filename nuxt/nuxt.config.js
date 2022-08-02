@@ -44,7 +44,7 @@ export default {
     // Disable deprecated Entity fields.
     entity: { components: { fields: false }},
     // Set the default theme to render Site regions.
-    site: { theme: 'olivero' },
+    site: { theme: 'socialblue' },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
