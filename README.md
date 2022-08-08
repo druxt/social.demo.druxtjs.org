@@ -13,7 +13,7 @@ This repostory provides a quickstart installation of:
 
 Try it before you fork it:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Decipher/druxt-social)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/druxt/example-druxt-social)
 
 <!--
 ## Getting started
