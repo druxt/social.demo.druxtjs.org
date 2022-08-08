@@ -31,16 +31,20 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxt/postcss8'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    'druxt-auth',
     'druxt-site',
   ],
 
   // DruxtJS: https://druxtjs.org
   druxt: {
     baseUrl,
+    proxy: { api: true },
+    auth: { clientId: '10f90de9-7cd3-49c0-950c-1ed1a1917bcf' },
     // Disable deprecated Entity fields.
     entity: { components: { fields: false }},
     // Set the default theme to render Site regions.
