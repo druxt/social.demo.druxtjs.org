@@ -3,7 +3,7 @@ const baseUrl = process.env.BASE_URL || 'http://social.ddev.site'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'quickstart-druxt-site',
+    title: 'DruxtSocial',
     htmlAttrs: {
       lang: 'en'
     },
@@ -36,7 +36,10 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'druxt-auth',
+    '@nuxtjs/tailwindcss',
+    ['druxt-auth', {
+      clientId: '10f90de9-7cd3-49c0-950c-1ed1a1917bcf'
+    }],
     'druxt-site',
   ],
 
@@ -44,7 +47,6 @@ export default {
   druxt: {
     baseUrl,
     proxy: { api: true },
-    auth: { clientId: '10f90de9-7cd3-49c0-950c-1ed1a1917bcf' },
     // Disable deprecated Entity fields.
     entity: { components: { fields: false }},
     // Set the default theme to render Site regions.

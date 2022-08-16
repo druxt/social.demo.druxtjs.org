@@ -1,0 +1,5 @@
+<template>
+  <footer class="footer p-10 bg-neutral text-neutral-content">
+    <slot />
+  </footer>
+</template>
