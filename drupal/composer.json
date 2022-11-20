@@ -6,14 +6,14 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "goalgorilla/open_social": "~11.3.5",
-        "php": "^7.4",
-        "monolog/monolog": "^2.3.5",
-        "drush/drush": "*",
+        "goalgorilla/open_social": "~11.4.7",
+        "php": "^7.4.33",
+        "monolog/monolog": "^2.8.0",
+        "drush/drush": "6.7.0",
         "drupal/tome": "^1.7",
         "drupal-tome/tome_drush": "dev-master",
-        "drupal/druxt": "^1.1",
-        "drupal/simple_oauth": "^5.2"
+        "drupal/druxt": "^1.1.1",
+        "drupal/simple_oauth": "^5.2.2"
     },
     "repositories": [
         {
